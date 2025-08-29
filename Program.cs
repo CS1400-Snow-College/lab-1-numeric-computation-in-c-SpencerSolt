@@ -1,22 +1,15 @@
-﻿//Work with the double type
-double a = 5;
-double b = 4;
-double c = 2;
-double d = (a + b) / c;
-Console.WriteLine(d);
-a = 19;
-b = 23;
-c = 8;
-d = (a + b) / c;
-Console.WriteLine(d);
-double max = double.MaxValue;
-double min = double.MinValue;
-Console.WriteLine($"The range of double is {min} to {max}");
-double third = 1.0 / 3.0;
-Console.WriteLine(third);
+﻿//Work with decimal types
+decimal min = decimal.MinValue;
+decimal max = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min} to {max}");
+double a = 1.0;
+double b = 3.0;
+Console.WriteLine(a / b);
+
+decimal c = 1.0M;
+decimal d = 3.0M;
+Console.WriteLine(c / d);
 //Challenge
-a = 0.25;
-b = 123456789;
-c = 247365;
-d = ((a * c) / (b))*c;
-Console.WriteLine(d);
+double r = 2.5;
+double e = (r * r) * Math.PI;
+Console.WriteLine(e); 
